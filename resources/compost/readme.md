@@ -24,3 +24,11 @@ this could be an interesting dataset to investigate how it best be published
 - CSVW JSON-LD Metadata for this dataset
 - CSV version of the xsl dataset (var_defs tab) above
 - JSON Mapping file
+
+Issues in this work:
+- How to deal with additional info in UoM, e.g. 'substrate' or 'fresh matter'? Shouldn't be in UoM, think actually goes to ObsProp, ideally we'd have I-ADOPT where this would be either the Matrix or a constraint.
+- Some of this info from comment is relevant, currently ignored
+- Various base URIs used in the examples, e.g. for ObsProps, Procedures, are missing
+- Some numeric values, e.g. NO3_N, are prefixed with a '<' sign, unclear if this is below threshold, as different values
+- Currently the observational part of the CSVW JSON-LD doesn't have a FoI or phenomenonTime, as this is available from previous columns. Do we leave it this way, or do we integrate this into each Observation column description?
+ 
