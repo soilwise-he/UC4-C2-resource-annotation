@@ -1,0 +1,43 @@
+{
+    "basicMapping": {
+        "name": "{var_Name}",
+        "titles": "{var_Short}",
+        "dc:description": "{var_Label}",
+        "datatype": {
+            "base": "string",
+            "format": "???"
+        },
+        "propertyUrl": "https://schema.org/???"
+    },
+    "omsMapping": {
+        "name": "{var_Name}",
+        "titles": "{var_Short}",
+        "dc:description": "{var_Label}",
+        "datatype": "double",
+        "propertyUrl": "http://SoilWise.EU/ObsPropsXXX/{var_Name}",
+        "oms:observedProperty": {
+            "id": "http://SoilWise.EU/ObsPropsXXX/{var_Name}",
+            "label": {
+                "en": "{var_Short}"
+            },
+            "description": {
+                "en": "{var_Label}"
+            }
+        },
+        "oms:observingProcedure": {
+            "id": "http://SoilWise.EU/ProceduresXXX/{var_Method}",
+            "label": {
+                "en": "{var_Method}"
+            },
+            "description": {
+                "en": "{var_Method}"
+            }
+        },
+        "schema:unitCode": "{var_Unit}",
+        "ks:missing": {
+            "uom": "additional info, e.g. 'substrate' or 'fresh matter' from UoM, think actually goes to ObsProp",
+            "comment": "seems some of this info is relevant",
+            "uris": "various base URIs, e.g. for ObsProps, Procedures, missing"
+        }
+    }
+}
