@@ -1,0 +1,141 @@
+{
+    "@context": [
+        "http://www.w3.org/ns/csvw", {
+            "oms": "https://service.datacove.eu/schemas/oms.jsonld"
+        }
+    ],
+    "url": "https://github.com/opengeospatial/timeseriesML/blob/master/Examples/CSV/CSV_Example1.csv",
+    "tableSchema": {
+        "columns": [{
+                "name": "cID",
+                "titles": "cID",
+                "dc:description": "compost ID",
+                "datatype": {
+                    "base": "string",
+                    "format": "C[\\d]{3}"
+                },
+                "propertyUrl": "https://schema.org/identifier"
+            }, {
+                "name": "ID_LAB",
+                "titles": "ID-LAB",
+                "dc:description": "ID-LAB",
+                "datatype": {
+                    "base": "string"
+                },
+                "propertyUrl": "https://schema.org/identifier"
+            }, {
+                "name": "comp_Code",
+                "titles": "Compost",
+                "dc:description": "Compost code",
+                "datatype": {
+                    "base": "string"
+                },
+                "propertyUrl": "http://www.w3.org/ns/sosa/Platform"
+            }, {
+                "name": "Project",
+                "titles": "Project",
+                "dc:description": "Project",
+                "datatype": {
+                    "base": "string"
+                },
+                "propertyUrl": "http://www.w3.org/ns/sosa/Platform"
+            }, {
+                "name": "Origin",
+                "titles": "Origin",
+                "dc:description": "Origin",
+                "datatype": {
+                    "base": "string"
+                },
+                "propertyUrl": "https://schema.org/Country"
+            }, {
+                "name": "Farm_Com",
+                "titles": "Farm_com",
+                "dc:description": "farm or commercial",
+                "datatype": {
+                    "base": "string",
+                    "format": "(farm|com)"
+                },
+                "propertyUrl": "https://SoilWise.EU/XXX"
+            }, {
+                "name": "Special",
+                "titles": "Special",
+                "dc:description": "Small or special",
+                "datatype": {
+                    "base": "string",
+                    "format": "(y|n)"
+                },
+                "propertyUrl": "https://SoilWise.EU/XXX"
+            }, {
+                "name": "sampling_Year",
+                "titles": "Year",
+                "dc:description": "Sampling year",
+                "datatype": {
+                    "base": "date",
+                    "format": "YYYY"
+                },
+                "propertyUrl": "http://www.w3.org/ns/sosa/phenomenonTime"
+            }, {
+                "name": "Producer",
+                "titles": "Producer",
+                "dc:description": "Producer",
+                "datatype": {
+                    "base": "string",
+                    "format": "(farm|com)"
+                },
+                "propertyUrl": "https://schema.org/producer"
+            }, {
+                "name": "Feedstock",
+                "titles": "Feedstock",
+                "dc:description": "Feedstock",
+                "datatype": {
+                    "base": "string",
+                    "format": "(green|fvg|peat|manure|farm_plant|digestate|wood|beam)"
+                },
+                "propertyUrl": "https://SoilWise.EU/XXX"
+            }, {
+                "name": "Feedstock_grp",
+                "titles": "Feedstock_grp",
+                "dc:description": "Feedstock group",
+                "datatype": {
+                    "base": "string",
+                    "format": "(green|fvg|manure)"
+                },
+                "propertyUrl": "https://SoilWise.EU/XXX"
+            }, {
+                "name": "comp_Complete",
+                "titles": "Complete",
+                "dc:description": "Completely analysed",
+                "datatype": {
+                    "base": "string",
+                    "format": "(y|n)"
+                },
+                "propertyUrl": "https://SoilWise.EU/XXX"
+            }, {
+                "name": "Stones_larger_5mm",
+                "titles": "Stones",
+                "dc:description": "stones larger 5mm",
+                "datatype": "double",
+                "propertyUrl": "http://vocab.nerc.ac.uk/standard_name/sea_surface_temperature/",
+                "oms:observedProperty": {
+                    "id": "http://SoilWise.EU/ObsPropsXXX/Stones_larger_5mm",
+                    "label": {
+                        "en": "Stones"
+                    },
+                    "description": {
+                        "en": "stones larger 5mm"
+                    }
+                },
+                "oms:observingProcedure": {
+                    "id": "http://SoilWise.EU/ProceduresXXX/CMA/2/IV/11",
+                    "label": {
+                        "en": "CMA/2/IV/11"
+                    },
+                    "description": {
+                        "en": "CMA/2/IV/11"
+                    }
+                },
+                "schema:unitCode": "%"
+            }
+        ]
+    }
+}
