@@ -71,7 +71,7 @@ biological,nematodes,nem_total,orig,N,2,Total nematodes,nem_tot,-,ILVO,1,,,
 biological,nematodes,nem_Simpson,orig,N,4,Simpson index (nem.),nem_Simp,-,ILVO,1,,"0: infinite diversity, 1: no diversity",
 biological,nematodes,nem_SW,orig,N,4,Shannon-Wiener index (nem.),nem_SW,-,ILVO,1,,"Shannon(-Wiener) Index, the higher the index, the higher the diversity (>4 seldom found)",
 biological,nematodes,nem_Channel,orig,N,4,Channel index (nem.),nem_Channel,-,ILVO,1,,bacterivorous/fungivorous nematode groups. Higher values of CI correspond to the higher proportion of energy transformed through the slow fungal decomposition channel,
-biological,nematodes,nem_Enrichment,orig,N,4,Enrichment (nem.),nem_Enrich,-,ILVO,1,,"Enrichment index, based on bacterivorous and fungivorous nematode groups and gives an indication of the nutrient availability,"
+biological,nematodes,nem_Enrichment,orig,N,4,Enrichment (nem.),nem_Enrich,-,ILVO,1,,"Enrichment index, based on bacterivorous and fungivorous nematode groups and gives an indication of the nutrient availability",
 biological,nematodes,nem_Structure,orig,N,4,Structure (nem.),nem_Struct,-,ILVO,1,,"Structural index: based on all feeding types except herbivorous group, indication of the functional complexity of the nematode community and maturity of the ecosystem",
 biological,nematodes,nem_Maturity,orig,N,4,Maturity (nem.),nem_Mat,-,ILVO,1,,"Compost maturity index based on 4 criteria. Here, 1 criterium (number individuals) is missing: compromised.",
 physical,sieving,Part_size_31_5,orig,N,1,Part size 31.5,PS_31.5,%,JHI,1,,,
