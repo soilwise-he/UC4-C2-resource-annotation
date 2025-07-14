@@ -13,10 +13,10 @@ general,general,Feedstock_grp,orig,C,5,Feedstock group,Feedstock_grp,-,ILVO,1,y,
 general,general,comp_Complete,orig,C,1,Completely analysed,Complete,-,ILVO,1,y,compost completely analysed (all variables),
 physical,fraction,Stones_larger_5mm,orig,N,2,stones larger 5mm,Stones,%,ILVO,1,n,,CMA/2/IV/11
 physical,fraction,Impurities_larger_2_mm,orig,N,2,impurities > 2 mm,Impurities,%,ILVO,1,n,,CMA/2/IV/11
-chemical,fresh,pH_H2O,orig,N,3,pH H2O,pH_H2O,-,ILVO,1,,,EN13037, 1:5 extraction
-chemical,fresh,EC,orig,N,4,EC,EC,µS/cm,ILVO,1,,,EN13038 1:5 extraction
-chemical,fresh,NO3_N,orig,N,4,NO3 N,NO3_N,mg/l substrate,ILVO,1,,,EN13652, 1:5 extraction
-chemical,fresh,NH4_N,orig,N,4,NH4 N,NH4_N,mg/l substrate,ILVO,1,,,EN13652, 1:5 extraction
+chemical,fresh,pH_H2O,orig,N,3,pH H2O,pH_H2O,-,ILVO,1,,,"EN13037, 1:5 extraction"
+chemical,fresh,EC,orig,N,4,EC,EC,µS/cm,ILVO,1,,,"EN13038, 1:5 extraction"
+chemical,fresh,NO3_N,orig,N,4,NO3 N,NO3_N,mg/l substrate,ILVO,1,,,"EN13652, 1:5 extraction"
+chemical,fresh,NH4_N,orig,N,4,NH4 N,NH4_N,mg/l substrate,ILVO,1,,,"EN13652, 1:5 extraction"
 chemical,fresh,NNO3_over_NNH4,calc,N,4,N-NO3/N-NH4,NNO3_over_NNH4,-,ILVO,1,,"ratio NNO3_over_NNH4, if below LOQ: calculation with LOQ/2","EN13652, 1:5 extraction"
 chemical,content,OM_dry,orig,N,5,OM dry,OM_dry,% / abs DM,ILVO,1,,,EN13039
 chemical,content,OM_fresh,calc,N,2,OM fresh,OM_fresh,%/ fresh matter,ILVO,1,,=OM_dry*DM,EN13039
