@@ -1,0 +1,7 @@
+var_Group;var_subG;var_Name;var_Source;var_Type;var_Key;var_Label;var_Short;var_Unit;Measured_by;max_repl;var_Complete;var_Comment;var_Method
+general;general;cID;orig;C;1;compost ID;cID;-;ILVO;1;n;;
+general;general;ID_LAB;orig;C;1;ID-LAB;ID-LAB;-;ILVO;1;n;;
+general;general;comp_Code;orig;C;1;Compost code;Compost;-;ILVO;1;y;;
+general;general;Project;orig;C;5;Project;Project;-;ILVO;1;y;;
+general;general;Origin;orig;C;2;Origin;Origin;-;ILVO;1;y;country;
+general;general;Farm_Com;orig;C;5;farm or commercial;Farm_com;-;ILVO;1;y;"com: composteerbedrijf; farm: boerderijcompost";
