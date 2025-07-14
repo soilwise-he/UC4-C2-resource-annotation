@@ -4,7 +4,7 @@ general;general;ID_LAB;orig;C;1;ID-LAB;ID-LAB;-;ILVO;1;n;;
 general;general;comp_Code;orig;C;1;Compost code;Compost;-;ILVO;1;y;;
 general;general;Project;orig;C;5;Project;Project;-;ILVO;1;y;;
 general;general;Origin;orig;C;2;Origin;Origin;-;ILVO;1;y;country;
-general;general;Farm_Com;orig;C;5;farm or commercial;Farm_com;-;ILVO;1;y;"com: composteerbedrijf; farm: boerderijcompost";
+general;general;Farm_Com;orig;C;5;farm or commercial;Farm_com;-;ILVO;1;y;"com: composteerbedrijf/ farm: boerderijcompost";
 general;general;Special;orig;C;4;Small or special;Special;-;ILVO;1;y;y: small scale composting or special composting practice. If not: n;
 general;general;sampling_Year;orig;C;2;Sampling year;Year;-;ILVO;1;y;;
 general;general;Producer;orig;C;1;Producer;Producer;-;ILVO;1;;;
