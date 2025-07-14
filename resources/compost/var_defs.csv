@@ -1,92 +1,92 @@
-var_Group;var_subG;var_Name;var_Source;var_Type;var_Key;var_Label;var_Short;var_Unit;Measured_by;max_repl;var_Complete;var_Comment;var_Method
-general;general;cID;orig;C;1;compost ID;cID;-;ILVO;1;n;;
-general;general;ID_LAB;orig;C;1;ID-LAB;ID-LAB;-;ILVO;1;n;;
-general;general;comp_Code;orig;C;1;Compost code;Compost;-;ILVO;1;y;;
-general;general;Project;orig;C;5;Project;Project;-;ILVO;1;y;;
-general;general;Origin;orig;C;2;Origin;Origin;-;ILVO;1;y;country;
-general;general;Farm_Com;orig;C;5;farm or commercial;Farm_com;-;ILVO;1;y;"com: composteerbedrijf; farm: boerderijcompost";
-general;general;Special;orig;C;4;Small or special;Special;-;ILVO;1;y;"y: small scale composting or special composting practice. If not: n";
-general;general;sampling_Year;orig;C;2;Sampling year;Year;-;ILVO;1;y;;
-general;general;Producer;orig;C;1;Producer;Producer;-;ILVO;1;;;
-general;general;Feedstock;orig;C;5;Feedstock;Feedstock;-;ILVO;1;y;"farm_man: including farm yard manure; farm_plant: without farm yard manure";
-general;general;Feedstock_grp;orig;C;5;Feedstock group;Feedstock_grp;-;ILVO;1;y;farm_plant, peat, wood belong to green, digestate to fvg, beam to wood or farm_man;
-general;general;comp_Complete;orig;C;1;Completely analysed;Complete;-;ILVO;1;y;compost completely analysed (all variables);
-physical;fraction;Stones_larger_5mm;orig;N;2;stones larger 5mm;Stones;%;ILVO;1;n;;CMA/2/IV/11
-physical;fraction;Impurities_larger_2_mm;orig;N;2;impurities > 2 mm;Impurities;%;ILVO;1;n;;CMA/2/IV/11
-chemical;fresh;pH_H2O;orig;N;3;pH H2O;pH_H2O;-;ILVO;1;;;EN13037, 1:5 extraction
-chemical;fresh;EC;orig;N;4;EC;EC;µS/cm;ILVO;1;;;EN13038 1:5 extraction
-chemical;fresh;NO3_N;orig;N;4;NO3 N;NO3_N;mg/l substrate;ILVO;1;;;EN13652, 1:5 extraction
-chemical;fresh;NH4_N;orig;N;4;NH4 N;NH4_N;mg/l substrate;ILVO;1;;;EN13652, 1:5 extraction
-chemical;fresh;NNO3_over_NNH4;calc;N;4;N-NO3/N-NH4;NNO3_over_NNH4;-;ILVO;1;;"ratio NNO3_over_NNH4; if below LOQ: calculation with LOQ/2";EN13652, 1:5 extraction
-chemical;content;OM_dry;orig;N;5;OM dry;OM_dry;% / abs DM;ILVO;1;;;EN13039
-chemical;content;OM_fresh;calc;N;2;OM fresh;OM_fresh;%/ fresh matter;ILVO;1;;=OM_dry*DM;EN13039
-physical;basic;DM;orig;N;2;DM;DM;%/fresh matter;ILVO;1;;;EN13040
-physical;basic;Moisture;calc;N;1;Moisture;Moisture;%/fresh matter;ILVO;1;;=100%-DM;EN13040
-physical;basic;Volume_weight;orig;N;3;volume weight;Volweight;g/l fresh substr;ILVO;1;;;CMA2/IV/24 (based on EN13040 compacted bulk density)
-chemical;stability;OUR;orig;N;4;OUR;OUR;mmol O2/kg OS/uur;ILVO;1;;oxygen uptake rate;CMA 2/IV/25, oxygen uptake rate
-biological;weeds;Weed_seeds;orig;N;2;germinating weed seeds;weed_seeds;#/l;ILVO;1;;;CMA/2/IV/10
-chemical;stability;Cellulose;calc;N;2;Cellulose;Cellulose;% / abs DM;ILVO;1;;Cellulose = ADF - ADL;"From Van Soest et. al, 1991. J Dairy Sci 74: 3583-3597 (Lignin=ADL, Cellulose = ADF - ADL, Hemicellulose = NDF-ADF; biodegradation potential = (hemicellulose+cellulose)/lignin"
-chemical;stability;Hemicellulose;calc;N;2;Hemicellulose;Hemicellulose;% / abs DM;ILVO;1;;Hemicellulose = NDF-ADF;"From Van Soest et. al, 1991. J Dairy Sci 74: 3583-3597 (Lignin=ADL, Cellulose = ADF - ADL, Hemicellulose = NDF-ADF; biodegradation potential = (hemicellulose+cellulose)/lignin"
-chemical;stability;Biodeg_pot;calc;N;4;Biodegradation potential;Biodeg_pot;-;ILVO;1;;biodegradation potential = (hemicellulose+cellulose)/lignin;"From Van Soest et. al, 1991. J Dairy Sci 74: 3583-3597 (Lignin=ADL, Cellulose = ADF - ADL, Hemicellulose = NDF-ADF; biodegradation potential = (hemicellulose+cellulose)/lignin"
-chemical;stability;NDF;orig;N;1;NDF;NDF;% / abs DM;ILVO;1;;;"From Van Soest et. al, 1991. J Dairy Sci 74: 3583-3597 (Lignin=ADL, Cellulose = ADF - ADL, Hemicellulose = NDF-ADF; biodegradation potential = (hemicellulose+cellulose)/lignin"
-chemical;stability;ADF;orig;N;1;ADF;ADF;% / abs DM;ILVO;1;;;"From Van Soest et. al, 1991. J Dairy Sci 74: 3583-3597 (Lignin=ADL, Cellulose = ADF - ADL, Hemicellulose = NDF-ADF; biodegradation potential = (hemicellulose+cellulose)/lignin"
-chemical;stability;ADL;orig;N;1;ADL;ADL;% / abs DM;ILVO;1;;;"From Van Soest et. al, 1991. J Dairy Sci 74: 3583-3597 (Lignin=ADL, Cellulose = ADF - ADL, Hemicellulose = NDF-ADF; biodegradation potential = (hemicellulose+cellulose)/lignin"
-chemical;total;N_total;orig;N;5;N total;N;% / abs DM;ILVO;1;;;Dumas via EN 13654-2 (compost)
-chemical;content;TC;orig;N;3;TC;TC;% / abs DM;ILVO;1;;;"ISO 10694; BOC; BAM deel 1/10"
-chemical;content;IC;orig;N;3;IC;IC;% / abs DM;ILVO;1;;;
-chemical;content;OC;calc;N;5;OC;OC;% / abs DM;ILVO;1;;=TC-IC;"ISO 10694; BOC; BAM deel 1/10"
-chemical;stability;C_over_N;calc;N;5;C over N;C.N;gOC/gN;ILVO;1;;=OC/TN;(TC - IC)/Ntotal)
-chemical;total;Cd_total;orig;N;3;Cd total;Cd;mg/kg abs DM;ILVO;1;;;CMA 2/IV/19 - ICP-OES (ADS: absoluut droge stof)
-chemical;total;Cr_total;orig;N;3;Cr total;Cr;mg/kg abs DM;ILVO;1;;;
-chemical;total;Cu_total;orig;N;3;Cu total;Cu;mg/kg abs DM;ILVO;1;;;
-chemical;total;Pb_total;orig;N;3;Pb total;Pb;mg/kg abs DM;ILVO;1;;;
-chemical;total;Ni_total;orig;N;3;Ni total;Ni;mg/kg abs DM;ILVO;1;;;
-chemical;total;Zn_total;orig;N;3;Zn total;Zn;mg/kg abs DM;ILVO;1;;;
-chemical;total;Mn_total;orig;N;2;Mn total;Mn;mg/kg abs DM;ILVO;1;;;
-chemical;total;As_total;orig;N;3;As total;As;mg/kg abs DM;ILVO;1;;;
-chemical;total;P_total;orig;N;4;P total;P;g/kg abs DM;ILVO;1;;;
-chemical;total;K_total;orig;N;4;K total;K;g/kg abs DM;ILVO;1;;;
-chemical;total;Mg_total;orig;N;4;Mg total;Mg;g/kg abs DM;ILVO;1;;;
-chemical;total;Ca_total;orig;N;3;Ca total;Ca;g/kg abs DM;ILVO;1;;;
-chemical;total;Na_total;orig;N;3;Na total;Na;g/kg abs DM;ILVO;1;;;
-chemical;total;Fe_total;orig;N;3;Fe total;Fe;g/kg abs DM;ILVO;1;;;
-chemical;total;Al_total;orig;N;3;Al total;Al;g/kg abs DM;ILVO;1;;;
-chemical;CEC;Mn_CEC;orig;N;2;Mn CEC;Mn_CEC;cmolc/kg abs DM;ILVO;1;;;potential CEC at pH 7 with 1M ammonium acetate, without preceding wash
-chemical;CEC;Mg_CEC;orig;N;2;Mg CEC;Mg_CEC;cmolc/kg abs DM;ILVO;1;;;potential CEC at pH 7 with 1M ammonium acetate, without preceding wash
-chemical;CEC;Ca_CEC;orig;N;2;Ca CEC;Ca_CEC;cmolc/kg abs DM;ILVO;1;;;potential CEC at pH 7 with 1M ammonium acetate, without preceding wash
-chemical;CEC;K_CEC;orig;N;2;K CEC;K_CEC;cmolc/kg abs DM;ILVO;1;;;potential CEC at pH 7 with 1M ammonium acetate, without preceding wash
-chemical;CEC;Na_CEC;orig;N;2;Na CEC;Na_CEC;cmolc/kg abs DM;ILVO;1;;;potential CEC at pH 7 with 1M ammonium acetate, without preceding wash
-chemical;CEC;CEC_total;orig;N;5;CEC total;CEC_total;cmolc/kg abs DM;ILVO;1;;;total potential CEC at pH 7 with 1M ammonium acetate
-chemical;CEC;CEC_diff;calc;N;3;sum cation-CEC - total CEC;CEC_diff;cmolc/kg abs DM;ILVO;1;;"Sum of Mn, Mg, Ca, K and Na CEC minus total CEC
-sum_Cation_CEC_minus_total_CEC";CEC at pH 7 with 1M ammonium acetate
-biological;PLFA;total_bact_nspec;orig;N;3;Total nonspecific bacteria;bact_nsp;nmol/g DS;ILVO;1;;;PLFA method 1b (Bligh & Dyer)
-biological;PLFA;total_bact_gpos;orig;N;3;Total gram+ bacteria;bact_gpos;nmol/g DS;ILVO;1;;;PLFA method 1b (Bligh & Dyer)
-biological;PLFA;total_Actinomycetes;orig;N;3;Total actinomycetes;bact_actino;nmol/g DS;ILVO;1;;;PLFA method 1b (Bligh & Dyer)
-biological;PLFA;total_bact_gneg;orig;N;3;Total gram- bacteria;bact_gneg;nmol/g DS;ILVO;1;;;PLFA method 1b (Bligh & Dyer)
-biological;PLFA;total_AM_fungi;orig;N;3;Total AM fungi;fungi_AM;nmol/g DS;ILVO;1;;Mycorrhizae. Not developed in compost, from feedstock.;PLFA method 1b (Bligh & Dyer)
-biological;PLFA;total_Fungi;orig;N;3;Total fungi;fungi_tot;nmol/g DS;ILVO;1;;;PLFA method 1b (Bligh & Dyer)
-biological;PLFA;total_Biomass;orig;N;5;Total biomass;biomass;nmol/g DS;ILVO;1;;sum of all measured PLFA peaks;PLFA method 1b (Bligh & Dyer)
-biological;PLFA;prop_Fungi_Bact;calc;N;4;Fungi over sum fungi bact;prop_FB;-;ILVO;1;;;total fungi/som(nonspec, gram+, gram-, fungi)
-biological;PLFA;ratio_Bact_Fungi;calc;N;4;Ratio bacteria fungi;ratio_BF;-;ILVO;1;;All bacteria divided by total fungi (not AM fungi);som(nonspec, gram+, gram-)/total fungi (not AM)
-biological;nematodes;nem_total;orig;N;2;Total nematodes;nem_tot;-;ILVO;1;;;
-biological;nematodes;nem_Simpson;orig;N;4;Simpson index (nem.);nem_Simp;-;ILVO;1;;0: infinite diversity, 1: no diversity;
-biological;nematodes;nem_SW;orig;N;4;Shannon-Wiener index (nem.);nem_SW;-;ILVO;1;;Shannon(-Wiener) Index, the higher the index, the higher the diversity (>4 seldom found);
-biological;nematodes;nem_Channel;orig;N;4;Channel index (nem.);nem_Channel;-;ILVO;1;;bacterivorous/fungivorous nematode groups. Higher values of CI correspond to the higher proportion of energy transformed through the slow fungal decomposition channel;
-biological;nematodes;nem_Enrichment;orig;N;4;Enrichment (nem.);nem_Enrich;-;ILVO;1;;Enrichment index, based on bacterivorous and fungivorous nematode groups and gives an indication of the nutrient availability;
-biological;nematodes;nem_Structure;orig;N;4;Structure (nem.);nem_Struct;-;ILVO;1;;Structural index: based on all feeding types except herbivorous group, indication of the functional complexity of the nematode community and maturity of the ecosystem;
-biological;nematodes;nem_Maturity;orig;N;4;Maturity (nem.);nem_Mat;-;ILVO;1;;Compost maturity index based on 4 criteria. Here, 1 criterium (number individuals) is missing: compromised.;
-physical;sieving;Part_size_31_5;orig;N;1;Part size 31.5;PS_31.5;%;JHI;1;;;
-physical;sieving;Part_size_16;orig;N;1;Part size 16;PS_16;%;JHI;1;;;
-physical;sieving;Part_size_12;orig;N;1;Part size 12;PS_12;%;JHI;1;;;
-physical;sieving;Part_size_8;orig;N;1;Part size 8;PS_08;%;JHI;1;;;
-physical;sieving;Part_size_4;orig;N;1;Part size 4;PS_04;%;JHI;1;;;
-physical;sieving;Part_size_2;orig;N;1;Part size 2;PS_02;%;JHI;1;;;
-physical;sieving;Part_size_1;orig;N;1;Part size 1;PS_01;%;JHI;1;;;
-physical;sieving;Part_size_smaller_1;orig;N;1;Part size smaller 1;PS_00;%;JHI;1;;;
-physical;basic;Bulk_dens_dry;orig;N;2;Bulk density (dry);BD;g/L  ;JHI;3;;;
-physical;water_retention;WHC_com;orig;N;2;Sat water content com;WHC_c;g/g;JHI;3;;;
-physical;water_retention;WHC_com_24h;orig;N;2;WHC 24h com;WHC_c24h;g/g;JHI;3;;;
-physical;water_retention;WHC_com_min10kPa;orig;N;2;WHC min10kPa com;WHC_c10kPa;g/g;JHI;3;;;
-physical;water_retention;WHC_soil;orig;N;2;Sat water content comsoil;WHC_s;g/g;JHI;3;;;
-physical;water_retention;WHC_soil_24h;orig;N;2;WHC 24h comsoil;WHC_s24h;g/g;JHI;3;;;
-physical;water_retention;WHC_soil_min10kPa;orig;N;2;WHC min10kPa comsoil;WHC_s10kPa;g/g;JHI;3;;;
+var_Group,var_subG,var_Name,var_Source,var_Type,var_Key,var_Label,var_Short,var_Unit,Measured_by,max_repl,var_Complete,var_Comment,var_Method
+general,general,cID,orig,C,1,compost ID,cID,-,ILVO,1,n,,
+general,general,ID_LAB,orig,C,1,ID-LAB,ID-LAB,-,ILVO,1,n,,
+general,general,comp_Code,orig,C,1,Compost code,Compost,-,ILVO,1,y,,
+general,general,Project,orig,C,5,Project,Project,-,ILVO,1,y,,
+general,general,Origin,orig,C,2,Origin,Origin,-,ILVO,1,y,country,
+general,general,Farm_Com,orig,C,5,farm or commercial,Farm_com,-,ILVO,1,y,"com: composteerbedrijf, farm: boerderijcompost",
+general,general,Special,orig,C,4,Small or special,Special,-,ILVO,1,y,"y: small scale composting or special composting practice. If not: n",
+general,general,sampling_Year,orig,C,2,Sampling year,Year,-,ILVO,1,y,,
+general,general,Producer,orig,C,1,Producer,Producer,-,ILVO,1,,,
+general,general,Feedstock,orig,C,5,Feedstock,Feedstock,-,ILVO,1,y,"farm_man: including farm yard manure, farm_plant: without farm yard manure",
+general,general,Feedstock_grp,orig,C,5,Feedstock group,Feedstock_grp,-,ILVO,1,y,farm_plant, peat, wood belong to green, digestate to fvg, beam to wood or farm_man,
+general,general,comp_Complete,orig,C,1,Completely analysed,Complete,-,ILVO,1,y,compost completely analysed (all variables),
+physical,fraction,Stones_larger_5mm,orig,N,2,stones larger 5mm,Stones,%,ILVO,1,n,,CMA/2/IV/11
+physical,fraction,Impurities_larger_2_mm,orig,N,2,impurities > 2 mm,Impurities,%,ILVO,1,n,,CMA/2/IV/11
+chemical,fresh,pH_H2O,orig,N,3,pH H2O,pH_H2O,-,ILVO,1,,,EN13037, 1:5 extraction
+chemical,fresh,EC,orig,N,4,EC,EC,µS/cm,ILVO,1,,,EN13038 1:5 extraction
+chemical,fresh,NO3_N,orig,N,4,NO3 N,NO3_N,mg/l substrate,ILVO,1,,,EN13652, 1:5 extraction
+chemical,fresh,NH4_N,orig,N,4,NH4 N,NH4_N,mg/l substrate,ILVO,1,,,EN13652, 1:5 extraction
+chemical,fresh,NNO3_over_NNH4,calc,N,4,N-NO3/N-NH4,NNO3_over_NNH4,-,ILVO,1,,"ratio NNO3_over_NNH4, if below LOQ: calculation with LOQ/2",EN13652, 1:5 extraction
+chemical,content,OM_dry,orig,N,5,OM dry,OM_dry,% / abs DM,ILVO,1,,,EN13039
+chemical,content,OM_fresh,calc,N,2,OM fresh,OM_fresh,%/ fresh matter,ILVO,1,,=OM_dry*DM,EN13039
+physical,basic,DM,orig,N,2,DM,DM,%/fresh matter,ILVO,1,,,EN13040
+physical,basic,Moisture,calc,N,1,Moisture,Moisture,%/fresh matter,ILVO,1,,=100%-DM,EN13040
+physical,basic,Volume_weight,orig,N,3,volume weight,Volweight,g/l fresh substr,ILVO,1,,,CMA2/IV/24 (based on EN13040 compacted bulk density)
+chemical,stability,OUR,orig,N,4,OUR,OUR,mmol O2/kg OS/uur,ILVO,1,,oxygen uptake rate,CMA 2/IV/25, oxygen uptake rate
+biological,weeds,Weed_seeds,orig,N,2,germinating weed seeds,weed_seeds,#/l,ILVO,1,,,CMA/2/IV/10
+chemical,stability,Cellulose,calc,N,2,Cellulose,Cellulose,% / abs DM,ILVO,1,,Cellulose = ADF - ADL,"From Van Soest et. al, 1991. J Dairy Sci 74: 3583-3597 (Lignin=ADL, Cellulose = ADF - ADL, Hemicellulose = NDF-ADF, biodegradation potential = (hemicellulose+cellulose)/lignin"
+chemical,stability,Hemicellulose,calc,N,2,Hemicellulose,Hemicellulose,% / abs DM,ILVO,1,,Hemicellulose = NDF-ADF,"From Van Soest et. al, 1991. J Dairy Sci 74: 3583-3597 (Lignin=ADL, Cellulose = ADF - ADL, Hemicellulose = NDF-ADF, biodegradation potential = (hemicellulose+cellulose)/lignin"
+chemical,stability,Biodeg_pot,calc,N,4,Biodegradation potential,Biodeg_pot,-,ILVO,1,,biodegradation potential = (hemicellulose+cellulose)/lignin,"From Van Soest et. al, 1991. J Dairy Sci 74: 3583-3597 (Lignin=ADL, Cellulose = ADF - ADL, Hemicellulose = NDF-ADF, biodegradation potential = (hemicellulose+cellulose)/lignin"
+chemical,stability,NDF,orig,N,1,NDF,NDF,% / abs DM,ILVO,1,,,"From Van Soest et. al, 1991. J Dairy Sci 74: 3583-3597 (Lignin=ADL, Cellulose = ADF - ADL, Hemicellulose = NDF-ADF, biodegradation potential = (hemicellulose+cellulose)/lignin"
+chemical,stability,ADF,orig,N,1,ADF,ADF,% / abs DM,ILVO,1,,,"From Van Soest et. al, 1991. J Dairy Sci 74: 3583-3597 (Lignin=ADL, Cellulose = ADF - ADL, Hemicellulose = NDF-ADF, biodegradation potential = (hemicellulose+cellulose)/lignin"
+chemical,stability,ADL,orig,N,1,ADL,ADL,% / abs DM,ILVO,1,,,"From Van Soest et. al, 1991. J Dairy Sci 74: 3583-3597 (Lignin=ADL, Cellulose = ADF - ADL, Hemicellulose = NDF-ADF, biodegradation potential = (hemicellulose+cellulose)/lignin"
+chemical,total,N_total,orig,N,5,N total,N,% / abs DM,ILVO,1,,,Dumas via EN 13654-2 (compost)
+chemical,content,TC,orig,N,3,TC,TC,% / abs DM,ILVO,1,,,"ISO 10694, BOC, BAM deel 1/10"
+chemical,content,IC,orig,N,3,IC,IC,% / abs DM,ILVO,1,,,
+chemical,content,OC,calc,N,5,OC,OC,% / abs DM,ILVO,1,,=TC-IC,"ISO 10694, BOC, BAM deel 1/10"
+chemical,stability,C_over_N,calc,N,5,C over N,C.N,gOC/gN,ILVO,1,,=OC/TN,(TC - IC)/Ntotal)
+chemical,total,Cd_total,orig,N,3,Cd total,Cd,mg/kg abs DM,ILVO,1,,,CMA 2/IV/19 - ICP-OES (ADS: absoluut droge stof)
+chemical,total,Cr_total,orig,N,3,Cr total,Cr,mg/kg abs DM,ILVO,1,,,
+chemical,total,Cu_total,orig,N,3,Cu total,Cu,mg/kg abs DM,ILVO,1,,,
+chemical,total,Pb_total,orig,N,3,Pb total,Pb,mg/kg abs DM,ILVO,1,,,
+chemical,total,Ni_total,orig,N,3,Ni total,Ni,mg/kg abs DM,ILVO,1,,,
+chemical,total,Zn_total,orig,N,3,Zn total,Zn,mg/kg abs DM,ILVO,1,,,
+chemical,total,Mn_total,orig,N,2,Mn total,Mn,mg/kg abs DM,ILVO,1,,,
+chemical,total,As_total,orig,N,3,As total,As,mg/kg abs DM,ILVO,1,,,
+chemical,total,P_total,orig,N,4,P total,P,g/kg abs DM,ILVO,1,,,
+chemical,total,K_total,orig,N,4,K total,K,g/kg abs DM,ILVO,1,,,
+chemical,total,Mg_total,orig,N,4,Mg total,Mg,g/kg abs DM,ILVO,1,,,
+chemical,total,Ca_total,orig,N,3,Ca total,Ca,g/kg abs DM,ILVO,1,,,
+chemical,total,Na_total,orig,N,3,Na total,Na,g/kg abs DM,ILVO,1,,,
+chemical,total,Fe_total,orig,N,3,Fe total,Fe,g/kg abs DM,ILVO,1,,,
+chemical,total,Al_total,orig,N,3,Al total,Al,g/kg abs DM,ILVO,1,,,
+chemical,CEC,Mn_CEC,orig,N,2,Mn CEC,Mn_CEC,cmolc/kg abs DM,ILVO,1,,,potential CEC at pH 7 with 1M ammonium acetate, without preceding wash
+chemical,CEC,Mg_CEC,orig,N,2,Mg CEC,Mg_CEC,cmolc/kg abs DM,ILVO,1,,,potential CEC at pH 7 with 1M ammonium acetate, without preceding wash
+chemical,CEC,Ca_CEC,orig,N,2,Ca CEC,Ca_CEC,cmolc/kg abs DM,ILVO,1,,,potential CEC at pH 7 with 1M ammonium acetate, without preceding wash
+chemical,CEC,K_CEC,orig,N,2,K CEC,K_CEC,cmolc/kg abs DM,ILVO,1,,,potential CEC at pH 7 with 1M ammonium acetate, without preceding wash
+chemical,CEC,Na_CEC,orig,N,2,Na CEC,Na_CEC,cmolc/kg abs DM,ILVO,1,,,potential CEC at pH 7 with 1M ammonium acetate, without preceding wash
+chemical,CEC,CEC_total,orig,N,5,CEC total,CEC_total,cmolc/kg abs DM,ILVO,1,,,total potential CEC at pH 7 with 1M ammonium acetate
+chemical,CEC,CEC_diff,calc,N,3,sum cation-CEC - total CEC,CEC_diff,cmolc/kg abs DM,ILVO,1,,"Sum of Mn, Mg, Ca, K and Na CEC minus total CEC
+sum_Cation_CEC_minus_total_CEC",CEC at pH 7 with 1M ammonium acetate
+biological,PLFA,total_bact_nspec,orig,N,3,Total nonspecific bacteria,bact_nsp,nmol/g DS,ILVO,1,,,PLFA method 1b (Bligh & Dyer)
+biological,PLFA,total_bact_gpos,orig,N,3,Total gram+ bacteria,bact_gpos,nmol/g DS,ILVO,1,,,PLFA method 1b (Bligh & Dyer)
+biological,PLFA,total_Actinomycetes,orig,N,3,Total actinomycetes,bact_actino,nmol/g DS,ILVO,1,,,PLFA method 1b (Bligh & Dyer)
+biological,PLFA,total_bact_gneg,orig,N,3,Total gram- bacteria,bact_gneg,nmol/g DS,ILVO,1,,,PLFA method 1b (Bligh & Dyer)
+biological,PLFA,total_AM_fungi,orig,N,3,Total AM fungi,fungi_AM,nmol/g DS,ILVO,1,,Mycorrhizae. Not developed in compost, from feedstock.,PLFA method 1b (Bligh & Dyer)
+biological,PLFA,total_Fungi,orig,N,3,Total fungi,fungi_tot,nmol/g DS,ILVO,1,,,PLFA method 1b (Bligh & Dyer)
+biological,PLFA,total_Biomass,orig,N,5,Total biomass,biomass,nmol/g DS,ILVO,1,,sum of all measured PLFA peaks,PLFA method 1b (Bligh & Dyer)
+biological,PLFA,prop_Fungi_Bact,calc,N,4,Fungi over sum fungi bact,prop_FB,-,ILVO,1,,,total fungi/som(nonspec, gram+, gram-, fungi)
+biological,PLFA,ratio_Bact_Fungi,calc,N,4,Ratio bacteria fungi,ratio_BF,-,ILVO,1,,All bacteria divided by total fungi (not AM fungi),som(nonspec, gram+, gram-)/total fungi (not AM)
+biological,nematodes,nem_total,orig,N,2,Total nematodes,nem_tot,-,ILVO,1,,,
+biological,nematodes,nem_Simpson,orig,N,4,Simpson index (nem.),nem_Simp,-,ILVO,1,,0: infinite diversity, 1: no diversity,
+biological,nematodes,nem_SW,orig,N,4,Shannon-Wiener index (nem.),nem_SW,-,ILVO,1,,Shannon(-Wiener) Index, the higher the index, the higher the diversity (>4 seldom found),
+biological,nematodes,nem_Channel,orig,N,4,Channel index (nem.),nem_Channel,-,ILVO,1,,bacterivorous/fungivorous nematode groups. Higher values of CI correspond to the higher proportion of energy transformed through the slow fungal decomposition channel,
+biological,nematodes,nem_Enrichment,orig,N,4,Enrichment (nem.),nem_Enrich,-,ILVO,1,,Enrichment index, based on bacterivorous and fungivorous nematode groups and gives an indication of the nutrient availability,
+biological,nematodes,nem_Structure,orig,N,4,Structure (nem.),nem_Struct,-,ILVO,1,,Structural index: based on all feeding types except herbivorous group, indication of the functional complexity of the nematode community and maturity of the ecosystem,
+biological,nematodes,nem_Maturity,orig,N,4,Maturity (nem.),nem_Mat,-,ILVO,1,,Compost maturity index based on 4 criteria. Here, 1 criterium (number individuals) is missing: compromised.,
+physical,sieving,Part_size_31_5,orig,N,1,Part size 31.5,PS_31.5,%,JHI,1,,,
+physical,sieving,Part_size_16,orig,N,1,Part size 16,PS_16,%,JHI,1,,,
+physical,sieving,Part_size_12,orig,N,1,Part size 12,PS_12,%,JHI,1,,,
+physical,sieving,Part_size_8,orig,N,1,Part size 8,PS_08,%,JHI,1,,,
+physical,sieving,Part_size_4,orig,N,1,Part size 4,PS_04,%,JHI,1,,,
+physical,sieving,Part_size_2,orig,N,1,Part size 2,PS_02,%,JHI,1,,,
+physical,sieving,Part_size_1,orig,N,1,Part size 1,PS_01,%,JHI,1,,,
+physical,sieving,Part_size_smaller_1,orig,N,1,Part size smaller 1,PS_00,%,JHI,1,,,
+physical,basic,Bulk_dens_dry,orig,N,2,Bulk density (dry),BD,g/L  ,JHI,3,,,
+physical,water_retention,WHC_com,orig,N,2,Sat water content com,WHC_c,g/g,JHI,3,,,
+physical,water_retention,WHC_com_24h,orig,N,2,WHC 24h com,WHC_c24h,g/g,JHI,3,,,
+physical,water_retention,WHC_com_min10kPa,orig,N,2,WHC min10kPa com,WHC_c10kPa,g/g,JHI,3,,,
+physical,water_retention,WHC_soil,orig,N,2,Sat water content comsoil,WHC_s,g/g,JHI,3,,,
+physical,water_retention,WHC_soil_24h,orig,N,2,WHC 24h comsoil,WHC_s24h,g/g,JHI,3,,,
+physical,water_retention,WHC_soil_min10kPa,orig,N,2,WHC min10kPa comsoil,WHC_s10kPa,g/g,JHI,3,,,
