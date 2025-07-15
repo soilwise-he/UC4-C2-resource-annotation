@@ -15,15 +15,15 @@ physical,fraction,Stones_larger_5mm,orig,N,2,stones larger 5mm,Stones,%,ILVO,1,n
 physical,fraction,Impurities_larger_2_mm,orig,N,2,impurities > 2 mm,Impurities,%,ILVO,1,n,,CMA/2/IV/11
 chemical,fresh,pH_H2O,orig,N,3,pH H2O,pH_H2O,-,ILVO,1,,,"EN13037, 1:5 extraction"
 chemical,fresh,EC,orig,N,4,EC,EC,µS/cm,ILVO,1,,,"EN13038, 1:5 extraction"
-chemical,fresh,NO3_N,orig,N,4,NO3 N,NO3_N,mg/l substrate,ILVO,1,,,"EN13652, 1:5 extraction"
-chemical,fresh,NH4_N,orig,N,4,NH4 N,NH4_N,mg/l substrate,ILVO,1,,,"EN13652, 1:5 extraction"
+chemical,fresh,NO3_N,orig,N,4,NO3 N,NO3_N,mg/kg abs DM,ILVO,1,,,"EN13652, 1:5 extraction"
+chemical,fresh,NH4_N,orig,N,4,NH4 N,NH4_N,mg/kg abs DM,ILVO,1,,,"EN13652, 1:5 extraction"
 chemical,fresh,NNO3_over_NNH4,calc,N,4,N-NO3/N-NH4,NNO3_over_NNH4,-,ILVO,1,,"ratio NNO3_over_NNH4, if below LOQ: calculation with LOQ/2","EN13652, 1:5 extraction"
 chemical,content,OM_dry,orig,N,5,OM dry,OM_dry,% / abs DM,ILVO,1,,,EN13039
 chemical,content,OM_fresh,calc,N,2,OM fresh,OM_fresh,%/ fresh matter,ILVO,1,,=OM_dry*DM,EN13039
 physical,basic,DM,orig,N,2,DM,DM,%/fresh matter,ILVO,1,,,EN13040
 physical,basic,Moisture,calc,N,1,Moisture,Moisture,%/fresh matter,ILVO,1,,=100%-DM,EN13040
 physical,basic,Volume_weight,orig,N,3,volume weight,Volweight,g/l fresh substr,ILVO,1,,,CMA2/IV/24 (based on EN13040 compacted bulk density)
-chemical,stability,OUR,orig,N,4,OUR,OUR,mmol O2/kg OS/uur,ILVO,1,,oxygen uptake rate,"CMA 2/IV/25, oxygen uptake rate"
+chemical,stability,OUR,orig,N,4,OUR,OUR,mmol O2/kg OM/hr,ILVO,1,,oxygen uptake rate,"CMA 2/IV/25, oxygen uptake rate"
 biological,weeds,Weed_seeds,orig,N,2,germinating weed seeds,weed_seeds,#/l,ILVO,1,,,CMA/2/IV/10
 chemical,stability,Cellulose,calc,N,2,Cellulose,Cellulose,% / abs DM,ILVO,1,,Cellulose = ADF - ADL,"From Van Soest et. al, 1991. J Dairy Sci 74: 3583-3597 (Lignin=ADL, Cellulose = ADF - ADL, Hemicellulose = NDF-ADF, biodegradation potential = (hemicellulose+cellulose)/lignin"
 chemical,stability,Hemicellulose,calc,N,2,Hemicellulose,Hemicellulose,% / abs DM,ILVO,1,,Hemicellulose = NDF-ADF,"From Van Soest et. al, 1991. J Dairy Sci 74: 3583-3597 (Lignin=ADL, Cellulose = ADF - ADL, Hemicellulose = NDF-ADF, biodegradation potential = (hemicellulose+cellulose)/lignin"
