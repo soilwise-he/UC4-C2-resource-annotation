@@ -58,13 +58,13 @@ chemical,CEC,K_CEC,orig,N,2,K CEC,K_CEC,cmolc/kg abs DM,ILVO,1,,,"potential CEC 
 chemical,CEC,Na_CEC,orig,N,2,Na CEC,Na_CEC,cmolc/kg abs DM,ILVO,1,,,"potential CEC at pH 7 with 1M ammonium acetate, without preceding wash"
 chemical,CEC,CEC_total,orig,N,5,CEC total,CEC_total,cmolc/kg abs DM,ILVO,1,,,total potential CEC at pH 7 with 1M ammonium acetate
 chemical,CEC,CEC_diff,calc,N,3,sum cation-CEC - total CEC,CEC_diff,cmolc/kg abs DM,ILVO,1,,"Sum of Mn, Mg, Ca, K and Na CEC minus total CEC / sum_Cation_CEC_minus_total_CEC",CEC at pH 7 with 1M ammonium acetate
-biological,PLFA,total_bact_nspec,orig,N,3,Total nonspecific bacteria,bact_nsp,nmol/g DS,ILVO,1,,,PLFA method 1b (Bligh & Dyer)
-biological,PLFA,total_bact_gpos,orig,N,3,Total gram+ bacteria,bact_gpos,nmol/g DS,ILVO,1,,,PLFA method 1b (Bligh & Dyer)
-biological,PLFA,total_Actinomycetes,orig,N,3,Total actinomycetes,bact_actino,nmol/g DS,ILVO,1,,,PLFA method 1b (Bligh & Dyer)
-biological,PLFA,total_bact_gneg,orig,N,3,Total gram- bacteria,bact_gneg,nmol/g DS,ILVO,1,,,PLFA method 1b (Bligh & Dyer)
-biological,PLFA,total_AM_fungi,orig,N,3,Total AM fungi,fungi_AM,nmol/g DS,ILVO,1,,"Mycorrhizae. Not developed in compost, from feedstock.",PLFA method 1b (Bligh & Dyer)
-biological,PLFA,total_Fungi,orig,N,3,Total fungi,fungi_tot,nmol/g DS,ILVO,1,,,PLFA method 1b (Bligh & Dyer)
-biological,PLFA,total_Biomass,orig,N,5,Total biomass,biomass,nmol/g DS,ILVO,1,,sum of all measured PLFA peaks,PLFA method 1b (Bligh & Dyer)
+biological,PLFA,total_bact_nspec,orig,N,3,Total nonspecific bacteria,bact_nsp,nmol/g DM,ILVO,1,,,PLFA method 1b (Bligh & Dyer)
+biological,PLFA,total_bact_gpos,orig,N,3,Total gram+ bacteria,bact_gpos,nmol/g DM,ILVO,1,,,PLFA method 1b (Bligh & Dyer)
+biological,PLFA,total_Actinomycetes,orig,N,3,Total actinomycetes,bact_actino,nmol/g DM,ILVO,1,,,PLFA method 1b (Bligh & Dyer)
+biological,PLFA,total_bact_gneg,orig,N,3,Total gram- bacteria,bact_gneg,nmol/g DM,ILVO,1,,,PLFA method 1b (Bligh & Dyer)
+biological,PLFA,total_AM_fungi,orig,N,3,Total AM fungi,fungi_AM,nmol/g DM,ILVO,1,,"Mycorrhizae. Not developed in compost, from feedstock.",PLFA method 1b (Bligh & Dyer)
+biological,PLFA,total_Fungi,orig,N,3,Total fungi,fungi_tot,nmol/g DM,ILVO,1,,,PLFA method 1b (Bligh & Dyer)
+biological,PLFA,total_Biomass,orig,N,5,Total biomass,biomass,nmol/g DM,ILVO,1,,sum of all measured PLFA peaks,PLFA method 1b (Bligh & Dyer)
 biological,PLFA,prop_Fungi_Bact,calc,N,4,Fungi over sum fungi bact,prop_FB,-,ILVO,1,,,"total fungi/som(nonspec, gram+, gram-, fungi)"
 biological,PLFA,ratio_Bact_Fungi,calc,N,4,Ratio bacteria fungi,ratio_BF,-,ILVO,1,,All bacteria divided by total fungi (not AM fungi),"som(nonspec, gram+, gram-)/total fungi (not AM)"
 biological,nematodes,nem_total,orig,N,2,Total nematodes,nem_tot,-,ILVO,1,,,
