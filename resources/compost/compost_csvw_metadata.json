@@ -55,7 +55,7 @@
                     "base": "string",
                     "format": "(farm|com)"
                 },
-                "propertyUrl": "https://SoilWise.EU/XXX"
+                "propertyUrl": "https://agrovoc.fao.org/browse/agrovoc/en/page/c_10626"
             }, {
                 "name": "Special",
                 "titles": "Special",
@@ -91,7 +91,7 @@
                     "base": "string",
                     "format": "(green|fvg|peat|manure|farm_plant|digestate|wood|beam)"
                 },
-                "propertyUrl": "https://SoilWise.EU/XXX"
+                "propertyUrl": "https://agrovoc.fao.org/browse/agrovoc/en/page/c_bb181477"
             }, {
                 "name": "Feedstock_grp",
                 "titles": "Feedstock_grp",
@@ -100,7 +100,7 @@
                     "base": "string",
                     "format": "(green|fvg|manure)"
                 },
-                "propertyUrl": "https://SoilWise.EU/XXX"
+                "propertyUrl": "https://agrovoc.fao.org/browse/agrovoc/en/page/c_bb181477"
             }, {
                 "name": "comp_Complete",
                 "titles": "Complete",
@@ -109,13 +109,13 @@
                     "base": "string",
                     "format": "(y|n)"
                 },
-                "propertyUrl": "https://SoilWise.EU/XXX"
+                "propertyUrl": "https://w3id.org/dsd#isComplete"
             }, {
                 "name": "Stones_larger_5mm",
                 "titles": "Stones",
                 "dc:description": "stones larger 5mm",
                 "datatype": "double",
-                "propertyUrl": "http://SoilWise.EU/ObsPropsXXX/Stones_larger_5mm",
+                "propertyUrl": "http://aims.fao.org/aos/agrovoc/c_7424",
                 "oms:observedProperty": {
                     "id": "http://SoilWise.EU/ObsPropsXXX/Stones_larger_5mm",
                     "label": {
@@ -126,12 +126,22 @@
                     }
                 },
                 "oms:observingProcedure": {
-                    "id": "http://SoilWise.EU/ProceduresXXX/CMA/2/IV/11",
+                    "id": "https://reflabos.vito.be/2025/CMA_2_IV_11.pdf",
                     "label": {
                         "en": "CMA/2/IV/11"
                     },
                     "description": {
-                        "en": "CMA/2/IV/11"
+                        "en": "CMA/2/IV/11",
+                        "nl": "Gehalte aan steentjes en onzuiverheden"
+                    }
+                },
+                "oms:observingProcedure": {
+                    "id": "https://standards.cencenelec.eu/dyn/www/f?p=CEN:110:0::::FSP_PROJECT,FSP_ORG_ID:27080,6204&cs=13D5348D3269C583F24C3A553620425EE",
+                    "label": {
+                        "en": "CEN/TS 16202:2013"
+                    },
+                    "description": {
+                        "en": "This Technical Specification specifies a method to determine the physical impurities > 2 mm and stones > 5 mm in sludge, treated biowaste and soil. Fragments of wood or bark can be acceptable constituents of the sample."
                     }
                 },
                 "schema:unitCode": "%"
