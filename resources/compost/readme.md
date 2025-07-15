@@ -26,9 +26,11 @@ this could be an interesting dataset to investigate how it best be published
 - JSON Mapping file
 
 Issues in this work:
-- How to deal with additional info in UoM, e.g. 'substrate' or 'fresh matter'? Shouldn't be in UoM, think actually goes to ObsProp, ideally we'd have I-ADOPT where this would be either the Matrix or a constraint.
-- Some of this info from comment is relevant, currently ignored
-- Various base URIs used in the examples, e.g. for ObsProps, Procedures, are missing
-- Some numeric values, e.g. NO3_N, are prefixed with a '<' sign, unclear if this is below threshold, as different values
-- Currently the observational part of the CSVW JSON-LD doesn't have a FoI or phenomenonTime, as this is available from previous columns. Do we leave it this way, or do we integrate this into each Observation column description?
+- [How to deal with additional info in UoM](https://github.com/soilwise-he/UC4-C2-resource-annotation/issues/3), e.g. 'substrate' or 'fresh matter'? Shouldn't be in UoM, think actually goes to ObsProp, ideally we'd have I-ADOPT where this would be either the Matrix or a constraint.
+- [Some of this info from comment is relevant, currently ignored](https://github.com/soilwise-he/UC4-C2-resource-annotation/issues/4)
+- Various base URIs used in the examples, e.g. for [ObsProps](https://github.com/soilwise-he/UC4-C2-resource-annotation/issues/5), [Procedures](https://github.com/soilwise-he/UC4-C2-resource-annotation/issues/6), are missing
+- Some numeric values, e.g. NO3_N, are [prefixed with a '<' sign](https://github.com/soilwise-he/UC4-C2-resource-annotation/issues/7), unclear if this is below threshold, as different values
+- Currently the observational part of the CSVW JSON-LD doesn't have a FoI or [phenomenonTime](https://github.com/soilwise-he/UC4-C2-resource-annotation/issues/8), as this is available from previous columns. Do we leave it this way, or do we integrate this into each Observation column description?
+- Do we also take the [administrative metadata](https://github.com/soilwise-he/UC4-C2-resource-annotation/issues/9) stored under meta_descriptive into account. If so, we need to find places for this
+- At present, the [ObsProp is duplicated](https://github.com/soilwise-he/UC4-C2-resource-annotation/issues/10), stored once under "propertyUrl", once under "oms:observedProperty".
  

@@ -115,7 +115,7 @@
                 "titles": "Stones",
                 "dc:description": "stones larger 5mm",
                 "datatype": "double",
-                "propertyUrl": "http://vocab.nerc.ac.uk/standard_name/sea_surface_temperature/",
+                "propertyUrl": "http://SoilWise.EU/ObsPropsXXX/Stones_larger_5mm",
                 "oms:observedProperty": {
                     "id": "http://SoilWise.EU/ObsPropsXXX/Stones_larger_5mm",
                     "label": {
