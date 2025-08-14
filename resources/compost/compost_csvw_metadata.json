@@ -126,7 +126,7 @@
                     }
                 },
                 "oms:observingProcedure": {
-                    "id": "https://reflabos.vito.be/2025/CMA_2_IV_11.pdf",
+                    "id": "https://data.omgeving.vlaanderen.be/doc/concept/observatieprocedure/CMA_2_IV_11",
                     "label": {
                         "en": "CMA/2/IV/11"
                     },
