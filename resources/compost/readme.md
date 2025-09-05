@@ -33,4 +33,5 @@ Issues in this work:
 - Currently the observational part of the CSVW JSON-LD doesn't have a FoI or [phenomenonTime](https://github.com/soilwise-he/UC4-C2-resource-annotation/issues/8), as this is available from previous columns. Do we leave it this way, or do we integrate this into each Observation column description?
 - Do we also take the [administrative metadata](https://github.com/soilwise-he/UC4-C2-resource-annotation/issues/9) stored under meta_descriptive into account. If so, we need to find places for this
 - At present, the [ObsProp is duplicated](https://github.com/soilwise-he/UC4-C2-resource-annotation/issues/10), stored once under "propertyUrl", once under "oms:observedProperty".
- 
+- To support both international and national/local standards under ObservingProcedure, we propose providing both, starting at the highest level (international, e.g. ISO), then using skos:narrower to link in national/local versions of these standards
+  -  for discussion: we could also use skos:broader, or sameAs, or...?
