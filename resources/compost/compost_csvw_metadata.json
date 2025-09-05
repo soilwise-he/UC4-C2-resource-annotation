@@ -141,15 +141,6 @@
                         "description": {
                             "en": "CMA/2/IV/11",
                             "nl": "Gehalte aan steentjes en onzuiverheden"
-                        },
-                        "skos:broader": {
-                            "id": "https://standards.cencenelec.eu/dyn/www/f?p=CEN:110:0::::FSP_PROJECT,FSP_ORG_ID:27080,6204&cs=13D5348D3269C583F24C3A553620425EE",
-                            "label": {
-                                "en": "CEN/TS 16202:2013"
-                            },
-                            "description": {
-                                "en": "This Technical Specification specifies a method to determine the physical impurities > 2 mm and stones > 5 mm in sludge, treated biowaste and soil. Fragments of wood or bark can be acceptable constituents of the sample."
-                            }
                         }
                     }
                 },
@@ -158,3 +149,4 @@
         ]
     }
 }
+
